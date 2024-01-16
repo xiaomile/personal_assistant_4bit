@@ -1,6 +1,6 @@
 from openxlab.model import download
 import os
-import subprocess
+#import subprocess
 
 download(model_repo='xiaomile/personal_assistant_4bit', output='xiaomile')
 
