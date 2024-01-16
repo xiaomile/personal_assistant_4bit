@@ -1,3 +1,4 @@
 lmdeploy[all]==v0.1.0
 packaging
 flash-attn==2.4.2
+gradio==3.50.2
