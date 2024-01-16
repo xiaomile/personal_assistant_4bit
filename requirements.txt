@@ -1,2 +1,2 @@
-lmdeploy[all]
+lmdeploy[all]==v0.1.0
 packaging
