@@ -2,7 +2,7 @@ from openxlab.model import download
 import os
 #import subprocess
 
-download(model_repo='xiaomile/personal_assistant_4bit', output='xiaomile')
+download(model_repo='xiaomile/ChineseMedicalAssistant_internlm_4bit', output='xiaomile')
 
 os.system("lmdeploy convert  internlm-chat-7b /home/xlab-app-center/xiaomile --model-format awq --group-size 128")
 
